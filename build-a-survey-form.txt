@@ -1,0 +1,76 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out the following survey to let us know how your experience was</p>
+  </head>
+  <body>
+    <main>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <label id="number-label">Age</label>
+      <input id="number" type="number" min="13" max="99" placeholder="Select your age" required>
+      </fieldset>
+      <fieldset>
+      <label id="dropdown-label">How did you hear about us?</label>
+      <select id="dropdown" name="reference-source">
+        <option value="select-one">Please select an option</option>
+        <option value="indeed">Indeed</option>
+        <option value="linkedin">Linkedin</option>
+      <input value="male" type="radio" name="gender"> 
+      <a>Male</a>
+      <input value="female" type="radio" name="gender">
+      <a>Female</a>
+      <label id="comment-field">Any additional comments?</label>
+      <textarea id="comments">Enter your comments here</textarea>
+      <p>Number of visits?</p> 
+      <a>1</a>
+      <input type="checkbox" value="1">
+      <a>2</a>
+      <input type="checkbox" value="2">
+      <a>3</a>
+      <input type="checkbox" value="3">
+      <a>4 or more</a>
+      <input type="checkbox" value="4">
+      <button id="submit" type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+** end of undefined **
+
+** start of undefined **
+
+h1, p {
+  text-align: center;
+}
+textarea {
+  min-width: 150px;
+}
+label {
+  display: block;
+  padding: 5px;
+  margin:
+}
+input {
+  display: block;
+  margin: 5px auto;
+}
+button {
+  display: block;
+  margin: 10px auto;
+}
+fieldset {
+  text-align: center;
+  }
+
+** end of undefined **
+
