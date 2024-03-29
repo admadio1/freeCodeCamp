@@ -1,4 +1,4 @@
-** start of undefined **
+** start of index.html **
 
 <!DOCTYPE html>
 <html>
@@ -45,9 +45,9 @@
       </fieldset>
     </form>
 
-** end of undefined **
+** end of index.html **
 
-** start of undefined **
+** start of styles.css **
 
 h1, p {
   text-align: center;
@@ -72,5 +72,5 @@ fieldset {
   text-align: center;
   }
 
-** end of undefined **
+** end of styles.css **
 
