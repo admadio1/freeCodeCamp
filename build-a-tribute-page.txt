@@ -1,0 +1,92 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width" initial-scale="1.0">
+    <meta name="author" content="Adam Sands">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <main id="main">
+    <title id="title">Dr. Albert Einstein</title>
+    <header>
+      <h1 id="head">Dr. Albert Einstein</h1>
+      <p id="desc">The Man Who Changed Physics Forever</p>
+    </header>
+      <div id="img-div">
+        <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/900px-Albert_Einstein_Head.jpg" />
+        <div id="img-caption"
+          <p id="img-caption">Portrait of Albert Einstein in 1947 by Orren Jack Turner</p>
+        </div>
+      </div>
+      <div id="info-div">
+        <ul id="tribute-info">
+          <li><strong>1879</strong> - Born in the German Empire.</li>
+          <li><strong>1906</strong> - Was awarded a PhD in theoretical physics from the University of Zurich.</li>
+          <li><strong>1915</strong> - Published his theory of general relativity.</li>
+          <li><strong>1919</strong> - Proved his theory of gravitational lensing by performing tests on a total solar eclipse.</li>
+          <li><strong>1922</strong> - Served on the International Comittee on Intellectual Cooperation.</li>
+          <li><strong>1933</strong> - Became a refugee due to the Nazi regime's hateful policy toward Jews.</li>
+          <li><strong>1939</strong> - Wrote a letter to U.S. President Roosevelt alongside Lio Szilard warning of the possibility of the Germans developing an atomic bomb.</li>
+          <li><strong>1940</strong> - Became an American citizen.</li>
+          <li><strong>1955</strong> - Died due to internal bleeding at the age of 76.
+      </div>
+      <p id="external-link">If you are interested in learning more about Dr. Albert Einstein click <a id="tribute-link" href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">here</a>.</p>
+  </main>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+#img-div {
+  background-color: #888888;
+  max-width: 60%;
+  margin: auto;
+}
+#img-caption {
+  background-color: #888888;
+  max-width: 60%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  white-space: nowrap;
+  text-align: center;
+}
+main {
+  background-color: #333333;
+  color: #eeeeee;
+  text-align: center;
+}
+li {
+  padding: 10px;
+  max-width: 60%;
+}
+ul > li {
+  margin: auto;
+  list-style-type: square;
+  text-align: left;
+}
+a:link, a:visited, a:active {
+  color: #eeeeee;
+}
+a:hover {
+  color: #888888;
+}
+#external-link {
+  padding-bottom: 20px;
+}
+h1 {
+  padding-top: 10px;
+}
+
+** end of styles.css **
+
