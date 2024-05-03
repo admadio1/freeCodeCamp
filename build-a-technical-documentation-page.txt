@@ -1,0 +1,135 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Adam S">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <main id="main-doc">
+    <nav id="navbar">
+      <header id="html-intro">Introduction to HTML Elements</header>
+      <a class="nav-link" href="#introduction">Introduction</a>
+      <a class="nav-link" href="#basic_elements">Basic Elements</a>
+      <a class="nav-link" href="#sections_and_dividers">Sections and Dividers</a>
+      <a class="nav-link" href="#lists">Lists</a>
+      <a class="nav-link" href="#tutorial">Tutorial</a>
+    </nav>
+    <section class="main-section" id="introduction">
+      <header id="introduction">Introduction</header>
+      <p>HTML is a web design coding language that provides tools for outlining the basic structure of webpages. It is a great first language to learn for people who are new to programming.</p>
+      <p>While you could technically write and deploy a webpage using only HTML, programmers always supplement their projects with other languages to add style and interactivity to them. Languages commonly paired with HTML include:</p>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Ruby</li>
+    </section>
+    <section class="main-section" id="basic_elements">
+      <header id="basics">Basic Elements</header>
+      <p>The basic elements in HTML allow you to select the size and order of the text on a webpage. Most HTML elements must include a closing element which is the same as the opening element except with a forward slash (/) between the less-than symbol and the first letter of the element name. These include:</p>
+          <li id="code-type">Header element
+              <p id="code"><code>&lt;header&gt;</code></p>
+          </li>
+          <li id="code-type">Title Element
+              <p id="code"><code>&lt;title&gt;</code></p>
+          <li id="code-type">H1-H6 elements (H1 being the biggest and H6 being the smallest)
+              <p id="code"><code>&lt;h1&gt;-&lt;h6&gt;</code></p>
+          </li>
+          <li id="code-type">Paragraph element
+              <p id="code"><code>&lt;p&gt;</code></p>
+          </li>
+     </section>
+    <section class="main-section" id="sections_and_dividers">
+      <header>Sections and Dividers</header>
+      <p>Section and Divider elements are a good way to divide your webpage up into sections and seperate topics on the page from one another.</p>
+      <li id="section">Section Elements
+        <p id="code"><code>&lt;section&gt;</code> These elements are the most basic way to divide content on your webpage into sections.</p>
+      </li>
+      <li id="div">Divider (div) Elements
+       <p id="code"><code>&lt;div&gt;</code> These elements are a good way to divide content into sections that will be styled seperately from each other and the rest of your webpage.</p> 
+      </li>
+    </section>
+    <section class="main-section" id="lists">
+      <header>Lists</header>
+      <p>There are two different basic types of lists in HTML, unordered lists and ordered lists. Unordered lists can be identified by their bullet points, while ordered lists can be identified by their numbers.</p>
+      <p><code>&lt;ul&gt;</code> Is the code for the unordered list element and <code>&lt;ol&gt;</code> is the code for the ordered list.</p>
+      <p>The following is an example of an unordered list:</p>
+      <ul>
+        <li>See the bullet point</li>
+        <li>to the left of the</li>
+        <li>text in the list.</li>
+      </ul>
+      <p>The following is an example of an ordered list:</p>
+      <ol>
+        <li>See the numbers to</li>
+        <li>the left of the</li>
+        <li>text in the list.</li>
+      </ol>
+    </section>
+    <section class="main-section" id="tutorial">
+      <header>Tutorial</header>
+      <p>If you would like to work through a simple tutorial of the HTML language, <a target="_blank" href="https://w3schools.com/html/">click here</a> to go to the W3schools HTML tutorial
+    </section>
+  </main>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+* {
+  background-color: white;
+  font-family: sans-serif;
+}
+#navbar {
+  position: fixed;
+  text-align: center;
+  max-width: 195px;
+}
+.nav-link {
+  display: block;
+  padding: 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+#code {
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+#code-type {
+  margin-bottom: 0px;
+}
+.main-section {
+  margin-top: 20px;
+  margin-left: 200px;
+  max-width: 800px;
+}
+header {
+  font-size: 1.4rem;
+}
+#html-tutorial {
+  margin-bottom: 25px;
+}
+code {
+  font-family: courier new;
+}
+p, li {
+  font-size: 0.9rem;
+}
+@media(max-width: 450px){
+  * {
+    background-color: #f0ead6;
+  }
+}
+#html-intro {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+** end of styles.css **
+
