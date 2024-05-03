@@ -34,6 +34,7 @@
           </li>
           <li id="code-type">Title Element
               <p id="code"><code>&lt;title&gt;</code></p>
+          </li>
           <li id="code-type">H1-H6 elements (H1 being the biggest and H6 being the smallest)
               <p id="code"><code>&lt;h1&gt;-&lt;h6&gt;</code></p>
           </li>
